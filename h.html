@@ -1,1166 +1,417 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>SynxEx | One Platform. Every Market.</title>
+    <title>SynxEx</title>
 
-    <meta name="description"
-        content="SynxEx is building a unified financial ecosystem connecting markets, banking, cards, remittance, Web3 and AI.">
-
-    <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
-        rel="stylesheet">
-
-    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+<header>
+    <nav>
+        <a href="#" class="logo">SynxEx</a>
 
-    <!-- ==================================================
-         NAVBAR
-    =================================================== -->
-
-    <header class="navbar">
-
-        <div class="container nav-container">
-
-            <!-- Logo -->
-            <a href="#home" class="logo">
-                Synx<span>Ex</span>
-            </a>
-
-
-            <!-- Navigation -->
-            <nav class="nav-links" id="navLinks">
-
-                <a href="#home">Home</a>
-
-                <a href="#markets">Markets</a>
-
-                <a href="#ai-agents">AI Agents</a>
-
-                <a href="#banking">Banking & Cards</a>
-
-                <a href="#remittance">Remittance</a>
-
-                <a href="#wallet">Web3 Wallet</a>
-
-                <a href="#security">Security</a>
-
-                <a href="#proof">Proof of Reserves</a>
-
-                <a href="#about">About</a>
-
-                <a href="#contact">Contact</a>
-
-            </nav>
-
-
-            <!-- Right Side Actions -->
-            <div class="nav-actions">
-
-                <!-- Theme Toggle -->
-                <button
-                    class="theme-toggle"
-                    id="themeToggle"
-                    type="button"
-                    aria-label="Toggle dark mode">
-
-                    <span id="themeIcon">☾</span>
-
-                </button>
-
-
-                <!-- Get Started -->
-                <a href="#contact" class="nav-button">
-                    Get Started
-                </a>
-
-            </div>
-
-
-            <!-- Mobile Menu -->
-            <button
-                class="menu-toggle"
-                id="menuToggle"
-                type="button"
-                aria-label="Open menu">
-
-                ☰
-
-            </button>
-
+        <div class="nav-links">
+            <a href="#">Markets</a>
+            <a href="#">Wallet</a>
+            <a href="#">AI Agents</a>
+            <a href="#">Banking & Cards</a>
+            <a href="#">Remittance</a>
         </div>
 
-    </header>
-
-
-    <!-- ==================================================
-         MAIN
-    =================================================== -->
-
-    <main>
-
-
-        <!-- ==================================================
-             HERO SECTION
-        =================================================== -->
-
-        <section class="hero" id="home">
-
-            <div class="hero-background"></div>
-
-
-            <div class="container hero-container">
-
-
-                <!-- Hero Text -->
-                <div class="hero-content">
-
-                    <div class="eyebrow">
-                        THE FUTURE OF FINANCE
-                    </div>
-
-
-                    <h1>
-                        One Platform.
-                        <span>Every Market.</span>
-                    </h1>
-
-
-                    <p>
-                        SynxEx is building a unified financial ecosystem
-                        connecting markets, banking, payments, Web3 and
-                        intelligent financial technology in one seamless
-                        experience.
-                    </p>
-
-
-                    <div class="hero-buttons">
-
-                        <a href="#markets" class="btn btn-primary">
-                            Explore SynxEx
-                        </a>
-
-                        <a href="#about" class="btn btn-secondary">
-                            Learn More
-                        </a>
-
-                    </div>
-
-                </div>
-
-
-                <!-- Hero Visual -->
-                <div class="hero-visual">
-
-                    <div class="orb orb-one"></div>
-
-                    <div class="orb orb-two"></div>
-
-
-                    <div class="dashboard-card">
-
-
-                        <div class="card-top">
-
-                            <span>
-                                SynxEx Ecosystem
-                            </span>
-
-                            <span class="status-dot"></span>
-
-                        </div>
-
-
-                        <div class="balance">
-
-                            <small>
-                                Unified Financial Platform
-                            </small>
-
-                            <strong>
-                                One Ecosystem
-                            </strong>
-
-                        </div>
-
-
-                        <div class="mini-grid">
-
-
-                            <div class="mini-card">
-
-                                <span>
-                                    Markets
-                                </span>
-
-                                <strong>
-                                    Crypto
-                                </strong>
-
-                            </div>
-
-
-                            <div class="mini-card">
-
-                                <span>
-                                    Markets
-                                </span>
-
-                                <strong>
-                                    Forex
-                                </strong>
-
-                            </div>
-
-
-                            <div class="mini-card">
-
-                                <span>
-                                    Finance
-                                </span>
-
-                                <strong>
-                                    Banking
-                                </strong>
-
-                            </div>
-
-
-                            <div class="mini-card">
-
-                                <span>
-                                    Web3
-                                </span>
-
-                                <strong>
-                                    Wallet
-                                </strong>
-
-                            </div>
-
-
-                        </div>
-
-
-                    </div>
-
-
-                </div>
-
+        <div class="nav-actions">
+            <a href="#" class="login-btn">Login</a>
+            <a href="#" class="get-started-btn">Get Started</a>
+        </div>
+    </nav>
+</header>
+<!-- Hero Section -->
+<section class="hero">
+
+    <div class="hero-content">
+
+        <p class="hero-label">THE FUTURE OF FINANCE</p>
+
+        <h1>
+            One Platform.
+            <span>Every Financial Need.</span>
+        </h1>
+
+        <p class="hero-description">
+            Trade, invest, transfer, and manage your digital assets
+            through one unified financial platform.
+        </p>
+
+        <div class="hero-actions">
+            <a href="#" class="primary-btn">Get Started</a>
+            <a href="#" class="secondary-btn">Explore Platform</a>
+        </div>
+
+    </div>
+
+    <div class="hero-visual">
+        <div class="dashboard-card">
+            <p>Portfolio Balance</p>
+            <h2>$24,680.42</h2>
+            <span>+8.24% today</span>
+        </div>
+    </div>
+
+</section>
+<!-- Trading & Markets Section -->
+<section class="markets-section">
+
+    <div class="section-heading">
+        <p class="section-label">MARKETS</p>
+
+        <h2>
+            Trade across markets
+            from one platform.
+        </h2>
+
+        <p>
+            Access crypto, forex, and stocks with a unified trading
+            experience and shared account infrastructure.
+        </p>
+    </div>
+
+    <div class="markets-grid">
+
+        <div class="market-card">
+            <div class="market-top">
+                <span class="market-icon">₿</span>
+                <span class="market-status">Live</span>
             </div>
 
-        </section>
+            <h3>Crypto</h3>
+
+            <p>
+                Trade digital assets with fast execution
+                and transparent pricing.
+            </p>
+
+            <a href="#" class="market-link">Explore Crypto →</a>
+        </div>
 
 
-
-        <!-- ==================================================
-             INTRO SECTION
-        =================================================== -->
-
-        <section class="intro-section">
-
-            <div class="container intro-content">
-
-
-                <span class="section-label">
-                    ONE UNIFIED ECOSYSTEM
-                </span>
-
-
-                <h2>
-                    Everything you need,
-                    <span>connected.</span>
-                </h2>
-
-
-                <p>
-                    SynxEx aims to bring multiple financial products and
-                    services together through one modern and unified platform.
-                </p>
-
-
+        <div class="market-card">
+            <div class="market-top">
+                <span class="market-icon">$</span>
+                <span class="market-status">Live</span>
             </div>
 
-        </section>
+            <h3>Forex</h3>
+
+            <p>
+                Access global currency markets with
+                real-time FX conversion.
+            </p>
+
+            <a href="#" class="market-link">Explore Forex →</a>
+        </div>
 
 
-
-        <!-- ==================================================
-             MARKETS SECTION
-        =================================================== -->
-
-        <section class="products-section" id="markets">
-
-            <div class="container">
-
-
-                <div class="section-heading">
-
-
-                    <div>
-
-                        <span class="section-label">
-                            MARKETS
-                        </span>
-
-
-                        <h2>
-                            Access global markets
-                        </h2>
-
-                    </div>
-
-
-                    <p>
-                        Explore a future where crypto, forex and stocks
-                        can exist within one connected financial experience.
-                    </p>
-
-
-                </div>
-
-
-
-                <div class="product-grid">
-
-
-                    <!-- Crypto -->
-
-                    <article class="product-card">
-
-                        <div class="product-icon">
-                            ₿
-                        </div>
-
-
-                        <h3>
-                            Crypto
-                        </h3>
-
-
-                        <p>
-                            A modern environment designed for accessing
-                            digital asset markets.
-                        </p>
-
-
-                        <a href="#contact">
-                            Learn more →
-                        </a>
-
-                    </article>
-
-
-
-                    <!-- Forex -->
-
-                    <article class="product-card">
-
-                        <div class="product-icon">
-                            $
-                        </div>
-
-
-                        <h3>
-                            Forex
-                        </h3>
-
-
-                        <p>
-                            Explore global currency markets through a
-                            unified financial ecosystem.
-                        </p>
-
-
-                        <a href="#contact">
-                            Learn more →
-                        </a>
-
-                    </article>
-
-
-
-                    <!-- Stocks -->
-
-                    <article class="product-card">
-
-                        <div class="product-icon">
-                            ↗
-                        </div>
-
-
-                        <h3>
-                            Stocks
-                        </h3>
-
-
-                        <p>
-                            Bringing traditional equity markets into one
-                            connected platform.
-                        </p>
-
-
-                        <a href="#contact">
-                            Learn more →
-                        </a>
-
-                    </article>
-
-
-                </div>
-
+        <div class="market-card">
+            <div class="market-top">
+                <span class="market-icon">↗</span>
+                <span class="market-status">Live</span>
             </div>
 
-        </section>
+            <h3>Stocks</h3>
 
+            <p>
+                Explore global equities through one
+                unified trading account.
+            </p>
 
+            <a href="#" class="market-link">Explore Stocks →</a>
+        </div>
 
-        <!-- ==================================================
-             AI AGENTS SECTION
-        =================================================== -->
+    </div>
 
-        <section class="feature-section dark-section" id="ai-agents">
+</section>
+<!-- Multi-Chain Wallet Section -->
+<section class="wallet-section">
 
-            <div class="container feature-container">
+    <div class="wallet-content">
 
+        <p class="section-label">MULTI-CHAIN WALLET</p>
 
-                <!-- Text -->
+        <h2>
+            One wallet.
+            <span>31 networks.</span>
+        </h2>
 
-                <div class="feature-text">
+        <p>
+            Manage your digital assets across multiple blockchain
+            networks with secure deposits, withdrawals and
+            real-time transaction tracking.
+        </p>
 
-                    <span class="section-label">
-                        AI AGENTS
-                    </span>
+        <a href="#" class="primary-btn">Explore Wallet</a>
 
+    </div>
 
-                    <h2>
-                        Intelligent tools for
-                        <span>smarter markets.</span>
-                    </h2>
+    <div class="wallet-features">
 
+        <div class="wallet-feature">
+            <strong>31</strong>
+            <span>Supported Networks</span>
+        </div>
 
-                    <p>
-                        SynxEx is building an AI agent ecosystem where users
-                        can discover and explore intelligent trading strategies
-                        with transparent performance and risk information.
-                    </p>
+        <div class="wallet-feature">
+            <strong>24/7</strong>
+            <span>Transaction Monitoring</span>
+        </div>
 
+        <div class="wallet-feature">
+            <strong>3</strong>
+            <span>Gas Fee Tiers</span>
+        </div>
 
-                    <a href="#contact" class="text-button">
-                        Explore AI Agents →
-                    </a>
+    </div>
 
-                </div>
+</section>
+<!-- AI Agent Marketplace Section -->
+<section class="agents-section">
 
+    <div class="section-heading">
+        <p class="section-label">AI AGENT MARKETPLACE</p>
 
+        <h2>
+            Smarter strategies,
+            powered by AI.
+        </h2>
 
-                <!-- Agent Panel -->
+        <p>
+            Discover AI-powered trading agents with transparent
+            performance, risk parameters and paper-trading validation.
+        </p>
+    </div>
 
-                <div class="feature-panel">
+    <div class="agents-grid">
 
+        <div class="agent-card">
 
-                    <div class="agent-header">
-
-                        <span>
-                            AI Agent Marketplace
-                        </span>
-
-
-                        <span class="badge">
-                            Future
-                        </span>
-
-                    </div>
-
-
-
-                    <div class="agent-row">
-
-                        <div>
-
-                            <strong>
-                                Alpha Strategy
-                            </strong>
-
-                            <small>
-                                Risk-aware strategy
-                            </small>
-
-                        </div>
-
-
-                        <span>
-                            Verified
-                        </span>
-
-                    </div>
-
-
-
-                    <div class="agent-row">
-
-                        <div>
-
-                            <strong>
-                                Global Momentum
-                            </strong>
-
-                            <small>
-                                Multi-market strategy
-                            </small>
-
-                        </div>
-
-
-                        <span>
-                            Verified
-                        </span>
-
-                    </div>
-
-
-
-                    <div class="agent-row">
-
-                        <div>
-
-                            <strong>
-                                Digital Growth
-                            </strong>
-
-                            <small>
-                                Crypto-focused strategy
-                            </small>
-
-                        </div>
-
-
-                        <span>
-                            Paper
-                        </span>
-
-                    </div>
-
-
-                </div>
-
+            <div class="agent-top">
+                <div class="agent-avatar">AI</div>
+                <span class="agent-badge">Verified</span>
             </div>
 
-        </section>
+            <h3>Alpha Momentum</h3>
 
+            <p>
+                AI-driven momentum strategy designed for
+                changing market conditions.
+            </p>
 
-
-        <!-- ==================================================
-             BANKING & CARDS
-        =================================================== -->
-
-        <section class="products-section" id="banking">
-
-            <div class="container">
-
-
-                <div class="section-heading">
-
-
-                    <div>
-
-                        <span class="section-label">
-                            BANKING & CARDS
-                        </span>
-
-
-                        <h2>
-                            Finance without boundaries.
-                        </h2>
-
-                    </div>
-
-
-                    <p>
-                        A future-ready financial experience connecting
-                        multi-currency accounts, banking services and cards.
-                    </p>
-
-
+            <div class="agent-stats">
+                <div>
+                    <strong>2.84</strong>
+                    <span>Sharpe Ratio</span>
                 </div>
-
-
-
-                <div class="product-grid">
-
-
-                    <!-- Banking -->
-
-                    <article class="product-card large-card">
-
-                        <div class="product-icon">
-                            ◇
-                        </div>
-
-
-                        <h3>
-                            Multi-Currency Banking
-                        </h3>
-
-
-                        <p>
-                            Manage multiple currencies through a unified
-                            financial experience with future-ready FX
-                            capabilities.
-                        </p>
-
-                    </article>
-
-
-
-                    <!-- Cards -->
-
-                    <article class="product-card large-card">
-
-                        <div class="product-icon">
-                            ▣
-                        </div>
-
-
-                        <h3>
-                            Virtual & Physical Cards
-                        </h3>
-
-
-                        <p>
-                            A connected card experience designed to bring
-                            everyday spending into the SynxEx ecosystem.
-                        </p>
-
-                    </article>
-
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-
-        <!-- ==================================================
-             REMITTANCE
-        =================================================== -->
-
-        <section class="feature-section light-feature" id="remittance">
-
-            <div class="container feature-container reverse">
-
-
-                <!-- Transfer Visual -->
-
-                <div class="feature-panel remittance-panel">
-
-
-                    <div class="transfer-line">
-
-
-                        <div class="country-box">
-
-                            <span>
-                                USD
-                            </span>
-
-                            <strong>
-                                United States
-                            </strong>
-
-                        </div>
-
-
-                        <div class="transfer-arrow">
-                            →
-                        </div>
-
-
-                        <div class="country-box">
-
-                            <span>
-                                EUR
-                            </span>
-
-                            <strong>
-                                Europe
-                            </strong>
-
-                        </div>
-
-
-                    </div>
-
-
-
-                    <div class="fee-box">
-
-                        <span>
-                            Transparent pricing
-                        </span>
-
-                        <strong>
-                            Future-ready transfers
-                        </strong>
-
-                    </div>
-
-
-                </div>
-
-
-
-                <!-- Text -->
-
-                <div class="feature-text">
-
-                    <span class="section-label">
-                        REMITTANCE
-                    </span>
-
-
-                    <h2>
-                        Move money
-                        <span>across borders.</span>
-                    </h2>
-
-
-                    <p>
-                        SynxEx aims to simplify international money movement
-                        through transparent pricing, currency conversion and
-                        intelligent routing.
-                    </p>
-
-
-                    <a href="#contact" class="text-button">
-                        Learn About Remittance →
-                    </a>
-
-                </div>
-
-
-            </div>
-
-        </section>
-
-
-
-        <!-- ==================================================
-             WEB3 WALLET
-        =================================================== -->
-
-        <section class="products-section" id="wallet">
-
-            <div class="container wallet-content">
-
-
-                <div class="section-heading centered">
-
-
-                    <span class="section-label">
-                        WEB3 WALLET
-                    </span>
-
-
-                    <h2>
-                        One wallet.
-                        <span>Multiple networks.</span>
-                    </h2>
-
-
-                    <p>
-                        A unified Web3 wallet experience designed to connect
-                        users with multiple blockchain ecosystems.
-                    </p>
-
-
-                </div>
-
-
-
-                <div class="network-grid">
-
-
-                    <div class="network-item">
-
-                        <strong>
-                            01
-                        </strong>
-
-                        <span>
-                            Multi-chain
-                        </span>
-
-                    </div>
-
-
-
-                    <div class="network-item">
-
-                        <strong>
-                            02
-                        </strong>
-
-                        <span>
-                            Unified Interface
-                        </span>
-
-                    </div>
-
-
-
-                    <div class="network-item">
-
-                        <strong>
-                            03
-                        </strong>
-
-                        <span>
-                            Secure Transfers
-                        </span>
-
-                    </div>
-
-
-
-                    <div class="network-item">
-
-                        <strong>
-                            04
-                        </strong>
-
-                        <span>
-                            Web3 Ready
-                        </span>
-
-                    </div>
-
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-
-        <!-- ==================================================
-             SECURITY
-        =================================================== -->
-
-        <section class="security-section" id="security">
-
-            <div class="container security-container">
-
-
-                <div class="security-content">
-
-                    <span class="section-label">
-                        SECURITY & TRUST
-                    </span>
-
-
-                    <h2>
-                        Built around
-                        <span>transparency.</span>
-                    </h2>
-
-
-                    <p>
-                        Trust is at the foundation of the SynxEx vision.
-                        The platform is designed with security, transparency
-                        and responsible financial infrastructure in mind.
-                    </p>
-
-                </div>
-
-
-
-                <div class="security-grid">
-
-
-                    <!-- Security -->
-
-                    <div class="security-card">
-
-                        <span class="security-number">
-                            01
-                        </span>
-
-
-                        <h3>
-                            Security
-                        </h3>
-
-
-                        <p>
-                            Security-focused infrastructure for a
-                            future financial platform.
-                        </p>
-
-                    </div>
-
-
-
-                    <!-- Proof of Reserves -->
-
-                    <div class="security-card" id="proof">
-
-                        <span class="security-number">
-                            02
-                        </span>
-
-
-                        <h3>
-                            Proof of Reserves
-                        </h3>
-
-
-                        <p>
-                            Transparent reserve information designed
-                            to strengthen user trust.
-                        </p>
-
-                    </div>
-
-
-
-                    <!-- Transparency -->
-
-                    <div class="security-card">
-
-                        <span class="security-number">
-                            03
-                        </span>
-
-
-                        <h3>
-                            Transparency
-                        </h3>
-
-
-                        <p>
-                            Clear information about products,
-                            risks and platform principles.
-                        </p>
-
-                    </div>
-
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-
-        <!-- ==================================================
-             ABOUT
-        =================================================== -->
-
-        <section class="about-section" id="about">
-
-            <div class="container about-container">
-
-
-                <span class="section-label">
-                    ABOUT SYNXEX
-                </span>
-
-
-                <h2>
-                    Building a more
-                    <span>connected financial future.</span>
-                </h2>
-
-
-                <p>
-                    SynxEx is a vision for a unified financial ecosystem where
-                    multiple markets, financial services and emerging
-                    technologies can work together through one platform.
-                </p>
-
-
-            </div>
-
-        </section>
-
-
-
-        <!-- ==================================================
-             CONTACT / CTA
-        =================================================== -->
-
-        <section class="cta-section" id="contact">
-
-            <div class="container cta-container">
-
-
-                <span class="section-label">
-                    THE FUTURE STARTS HERE
-                </span>
-
-
-                <h2>
-                    One platform.
-                    <span>Every market.</span>
-                </h2>
-
-
-                <p>
-                    Discover the vision behind SynxEx and stay connected
-                    as the platform evolves.
-                </p>
-
-
-                <a
-                    href="mailto:hello@synxex.com"
-                    class="btn btn-primary">
-
-                    Get Started
-
-                </a>
-
-
-            </div>
-
-        </section>
-
-
-    </main>
-
-
-
-    <!-- ==================================================
-         FOOTER
-    =================================================== -->
-
-    <footer class="footer">
-
-        <div class="container footer-container">
-
-
-            <!-- Brand -->
-
-            <div class="footer-brand">
-
-                <a href="#home" class="logo">
-                    Synx<span>Ex</span>
-                </a>
-
-
-                <p>
-                    One Platform. Every Market.
-                </p>
-
-            </div>
-
-
-
-            <!-- Footer Links -->
-
-            <div class="footer-links">
-
 
                 <div>
-
-                    <h4>
-                        Platform
-                    </h4>
-
-
-                    <a href="#markets">
-                        Markets
-                    </a>
-
-
-                    <a href="#ai-agents">
-                        AI Agents
-                    </a>
-
-
-                    <a href="#banking">
-                        Banking & Cards
-                    </a>
-
-
-                    <a href="#wallet">
-                        Web3 Wallet
-                    </a>
-
+                    <strong>Low</strong>
+                    <span>Risk</span>
                 </div>
+            </div>
+
+            <div class="paper-badge">
+                ✓ Paper Trading Validated
+            </div>
+
+        </div>
 
 
+        <div class="agent-card">
+
+            <div class="agent-top">
+                <div class="agent-avatar">AI</div>
+                <span class="agent-badge">Verified</span>
+            </div>
+
+            <h3>Stable Yield</h3>
+
+            <p>
+                A risk-aware AI strategy focused on
+                consistent portfolio management.
+            </p>
+
+            <div class="agent-stats">
+                <div>
+                    <strong>2.31</strong>
+                    <span>Sharpe Ratio</span>
+                </div>
 
                 <div>
+                    <strong>Low</strong>
+                    <span>Risk</span>
+                </div>
+            </div>
 
-                    <h4>
-                        Company
-                    </h4>
+            <div class="paper-badge">
+                ✓ Paper Trading Validated
+            </div>
 
-
-                    <a href="#about">
-                        About
-                    </a>
-
-
-                    <a href="#security">
-                        Security
-                    </a>
+        </div>
 
 
-                    <a href="#proof">
-                        Proof of Reserves
-                    </a>
+        <div class="agent-card">
 
+            <div class="agent-top">
+                <div class="agent-avatar">AI</div>
+                <span class="agent-badge">Verified</span>
+            </div>
 
-                    <a href="#contact">
-                        Contact
-                    </a>
+            <h3>Global Edge</h3>
 
+            <p>
+                Multi-market AI agent designed to identify
+                opportunities across global assets.
+            </p>
+
+            <div class="agent-stats">
+                <div>
+                    <strong>1.97</strong>
+                    <span>Sharpe Ratio</span>
                 </div>
 
+                <div>
+                    <strong>Med</strong>
+                    <span>Risk</span>
+                </div>
+            </div>
 
+            <div class="paper-badge">
+                ✓ Paper Trading Validated
             </div>
 
         </div>
 
+    </div>
 
+</section>
+<!-- Banking & Cards Section -->
+<section class="banking-section">
 
-        <!-- Copyright -->
+    <div class="banking-content">
 
-        <div class="footer-bottom">
+        <p class="section-label">BANKING & CARDS</p>
 
-            <div class="container">
+        <h2>
+            Banking built for
+            <span>modern finance.</span>
+        </h2>
 
+        <p>
+            Manage multi-currency accounts, IBANs and virtual or
+            physical cards from the same unified SynxEx account.
+        </p>
+
+        <a href="#" class="primary-btn">Explore Banking</a>
+
+    </div>
+
+    <div class="banking-grid">
+
+        <div class="banking-card">
+            <div class="banking-icon">€</div>
+            <h3>Multi-Currency</h3>
+            <p>
+                Hold and manage multiple currencies with
+                real-time FX conversion.
+            </p>
+        </div>
+
+        <div class="banking-card">
+            <div class="banking-icon">IB</div>
+            <h3>IBAN Accounts</h3>
+            <p>
+                Manage your international banking details
+                from one account.
+            </p>
+        </div>
+
+        <div class="banking-card">
+            <div class="banking-icon">▣</div>
+            <h3>Smart Cards</h3>
+            <p>
+                Control virtual and physical cards directly
+                from your SynxEx account.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+<!-- Remittance Section -->
+<section class="remittance-section">
+
+    <div class="section-heading">
+
+        <p class="section-label">REMITTANCE</p>
+
+        <h2>
+            Move money.
+            <span>At the right price.</span>
+        </h2>
+
+        <p>
+            Send crypto and fiat across borders with transparent
+            fees and intelligent provider routing.
+        </p>
+
+    </div>
+
+    <div class="remittance-features">
+
+        <div class="remittance-item">
+            <span class="remittance-number">01</span>
+
+            <div>
+                <h3>Lowest-Cost Routing</h3>
                 <p>
-                    © 2026 SynxEx. All rights reserved.
+                    Compare available routes and select
+                    cost-efficient transfer options.
                 </p>
-
             </div>
-
         </div>
 
-    </footer>
+
+        <div class="remittance-item">
+            <span class="remittance-number">02</span>
+
+            <div>
+                <h3>Crypto-to-Fiat</h3>
+                <p>
+                    Convert digital assets into fiat while
+                    managing the entire transfer flow.
+                </p>
+            </div>
+        </div>
 
 
+        <div class="remittance-item">
+            <span class="remittance-number">03</span>
 
-    <!-- JavaScript -->
+            <div>
+                <h3>FX-Hedged Transfers</h3>
+                <p>
+                    Reduce currency exposure during
+                    crypto-to-fiat remittance.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+   
+
     <script src="script.js"></script>
-
 </body>
-
 </html>
